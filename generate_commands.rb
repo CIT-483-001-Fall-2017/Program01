@@ -8,7 +8,7 @@ users = {'smithj1' => 'John Smith', 'doej1' => "Jane Doe", 'publicj1' => "John Q
 words = ['Care' , 'less', 'Toys', 'game', 'rand', 'Ruby', 'star', 'Lite']
 seps = ['−', '%', '&', '@', '#', '!' ]
 
-users.each_key do |user|
+users.each_key do |user|   # or if you prefer -- users.each do |user, name|    
 
   ##### THE BULK OF YOUR CODE GOES HERE #####
 
